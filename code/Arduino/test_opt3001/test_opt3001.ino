@@ -16,7 +16,7 @@ void setup()
   delay(1000);
   
   Wire.begin(SDA_PIN, SCL_PIN);
-  objOPT3001.begin(); 
+  objOPT3001.begin(DEFAULT_CONFIG_100); 
   
   Serial.println("OPT3001 Initialized----------------------------------");
   
